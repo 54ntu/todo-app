@@ -23,8 +23,23 @@ and also delete the task from the database by simply clicking delete buttons.</p
 
 # Installation 🛠️
 <h2>Clone the repository and install the dependencies: </h2>
+
 ```js
-git clone git@github.com:54ntu/
+git clone git@github.com:54ntu/todo-app.git
+cd todo-app
+//open the two terminal one for frontend and another for backend
+//for frontend one run npm install to install the node_modules files
+cd Todo_frontend
+npm install
+npm run dev
+
+//for backend
+activate the virtual environment
+myven\Scripts\activate.bat
+cd project-todo
+python manage.py runserver
+
+```
 
 
 
