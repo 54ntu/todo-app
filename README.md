@@ -13,3 +13,5 @@ and also delete the task from the database by simply clicking delete buttons.</p
 <li>Django</li>
 <li>Django restFramework to create an API's </li>
 
+
+
