@@ -85,14 +85,14 @@ function App() {
     <div className="flex flex-col items-center justify-center bg-[#000000] min-h-32 w-[400px] m-[auto] mt-10 rounded-lg text-white p-4 gap-6 ">
       <div className="flex items-center gap-10 ">
         <div className="font-semibold ">Your Task</div>
-        {/* <div className="text-center  ">
+        <div className="text-center  ">
           <button className="bg-gray-600  p-1 font-semibold rounded-md">
             Finished
           </button>
           <button className="ml-1 bg-gray-600  p-1 font-semibold rounded-md">
             Remaining
           </button>
-        </div> */}
+        </div>
       </div>
       <form className="flex" onSubmit={addTodo}>
         <input
